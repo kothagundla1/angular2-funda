@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-simple-form',
   template: `
     <div>
+      {{message}}
       <input #myInput> 
       <button (mouseover)="onClick($event, myInput.value) "> Click me</button>
     </div>
@@ -16,6 +17,8 @@ export class SimpleFormComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  @Input()  message;
   onClick(event,value){
     console.log(event);
     console.log(value);
