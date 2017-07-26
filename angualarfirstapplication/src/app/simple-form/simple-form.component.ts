@@ -1,11 +1,11 @@
-import {Component, Inject, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-simple-form',
   template: `
     <div>
       {{message}}
-      <input #myInput> 
+      <input #myInput [(ngModel)]="message"> 
       <button (mouseover)="onClick($event, myInput.value) "> Click me</button>
     </div>
   `,
@@ -13,7 +13,9 @@ import {Component, Inject, Input, OnInit} from '@angular/core';
 })
 export class SimpleFormComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    setInterval (() => this.message = Math.random().toString(), 1500)
+  }
 
   ngOnInit() {
   }
