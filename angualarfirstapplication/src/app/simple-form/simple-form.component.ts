@@ -4,8 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-simple-form',
   template: `
     <div>
-      <input #myInput type="text">
-     <button (click)="onClick(myInput.value) "> Click me </button>
+      <input #myInput> 
+      <button (mouseover)="onClick($event, myInput.value) "> Click me</button>
     </div>
   `,
   styles: []
@@ -16,7 +16,8 @@ export class SimpleFormComponent implements OnInit {
 
   ngOnInit() {
   }
-  onClick(value){
+  onClick(event,value){
+    console.log(event);
     console.log(value);
   }
 
