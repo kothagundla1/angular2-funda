@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'app works!';
   pageHeader: string = 'Employee Header';
   isDisabled : boolean = false;
+  badHtml: string = 'Hi <script> alert("Hacked") </script> world'
 }

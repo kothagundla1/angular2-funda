@@ -11,5 +11,11 @@ export class EmployeeComponent implements OnInit {
 
   ngOnInit() {
   }
+  columnSpan: number = 2;
+  firstName : string = 'Hari';
+  lastName : string = 'Krishna';
+  gender : string = 'Male';
+  age : string = '24';
+
 
 }
