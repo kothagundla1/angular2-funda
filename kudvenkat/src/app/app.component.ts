@@ -6,16 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-classesToApply: string = 'italicsClass boldClass';
-  applyBoldClass: boolean = true;
-  applyColorClass: boolean = true;
-  addClasses(){
-    let classes = {
-      boldClass : this.applyBoldClass,
-      colorClass : this.applyColorClass
+  isBold: boolean = true;
+  fontSize: number = 30;
+  isItalic: boolean = true;
 
+  addStyles() {
+    let styles = {
+      'font-weight': this.isBold ? 'bold' : 'normal',
+      'font-style': this.isItalic ? 'italic' : 'normal',
+      'font-size.px': this.fontSize
     };
-    return classes;
-  }
 
+    return styles;
+  }
 }
