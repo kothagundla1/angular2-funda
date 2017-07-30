@@ -16,7 +16,7 @@ export class AppComponent {
       'font-style': this.isItalic ? 'italic' : 'normal',
       'font-size.px': this.fontSize
     };
-
     return styles;
   }
+
 }
