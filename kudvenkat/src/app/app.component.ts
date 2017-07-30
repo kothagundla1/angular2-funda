@@ -19,4 +19,6 @@ export class AppComponent {
     return styles;
   }
 
+  name: string = 'hari';
+
 }
