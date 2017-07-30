@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SimpleFormComponent } from './simple-form/simple-form.component';
 import {MailService} from "./mail.service";
+// import {EmployeeListComponent} from '../../../kudvenkat/src/app/employee-list/employee-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpleFormComponent
+    // EmployeeListComponent
   ],
   imports: [
     BrowserModule,
