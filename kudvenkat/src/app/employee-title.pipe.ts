@@ -9,7 +9,7 @@ export class EmployeeTitlePipe implements PipeTransform {
     if(gender.toLowerCase()=='male'){
       return 'Mr.'+ value
     }else {
-      return 'Miss' + value
+      return 'Miss.' + value
     }
   }
 
