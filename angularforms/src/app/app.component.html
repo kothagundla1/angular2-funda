@@ -1,28 +1,15 @@
-<form #formRef="ngForm" (ngSubmit)="onSubmit(formRef.value)">
-    <fieldset ngModelGroup="login">
-    <input type="text"   name ="name"  required="" [(ngModel)]="name"  #nameRef="ngModel" minlength="4">
+<form #formRef="ngForm">
+  <div *ngFor="let location of locations">
+    <input type="radio" name="location" [id]="location" [value]="location" [ngModel]="locations[0]">
+    <label [attr.for]>{{location}}</label>
+  </div>
 
-    <span *ngIf="nameRef.errors?.required">This field is required</span>
-      <hr>
-      {{nameRef.pristine}}
-      {{nameRef.dirty}}
-      {{nameRef.touched}}
-      {{nameRef.untouched}}
-
-
-      <hr>
-
-    <span *ngIf="nameRef.errors?.minlength"> check your length</span>
-    <input type="password" ngModel name="password">
-    </fieldset>
-    <br>
-  <button> submit</button>
 
 </form>
 
 <br>
 {{formRef.value | json}}
-{{formRef.valid | json}}
+
 
 
 
