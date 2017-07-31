@@ -1,8 +1,13 @@
-<input type="text"  required="" [(ngModel)]="name"  #nameRef="ngModel" minlength="4">
+<form #formRef="ngForm">
+  <input type="text"   name ="name"  required="" [(ngModel)]="name"  #nameRef="ngModel" minlength="4">
+
 <span *ngIf="nameRef.errors?.required">This field is required</span>
 <span *ngIf="nameRef.errors?.minlength">This field must be longer than {{nameRef.errors?.minlength.requiredLength}} characters. You only typed {{nameRef.errors?.minlength.actualLength}}</span>
+</form>
 <br>
-<p> {{name}}</p>
+{{formRef.value | json}}
+{{formRef.valid | json}}
+
 
 
 
