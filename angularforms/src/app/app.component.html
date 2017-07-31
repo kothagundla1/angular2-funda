@@ -1,9 +1,7 @@
 <form #formRef="ngForm">
-  <div *ngFor="let location of locations">
-    <input type="radio" name="location" [id]="location" [value]="location" [ngModel]="locations[0]">
-    <label [attr.for]>{{location}}</label>
-  </div>
-
+  <select name="location" [ngModel]="locations[0]" >
+    <option *ngFor="let location of locations"  [value]="location">{{location}}</option>
+  </select>
 
 </form>
 
