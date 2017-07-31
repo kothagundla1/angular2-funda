@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'hari';
+  onSubmit(formValue){
+    console.log(formValue);
+  }
 }
