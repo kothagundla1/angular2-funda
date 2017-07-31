@@ -3,6 +3,14 @@
     <input type="text"   name ="name"  required="" [(ngModel)]="name"  #nameRef="ngModel" minlength="4">
 
     <span *ngIf="nameRef.errors?.required">This field is required</span>
+      <hr>
+      {{nameRef.pristine}}
+      {{nameRef.dirty}}
+      {{nameRef.touched}}
+      {{nameRef.untouched}}
+
+
+      <hr>
 
     <span *ngIf="nameRef.errors?.minlength"> check your length</span>
     <input type="password" ngModel name="password">
