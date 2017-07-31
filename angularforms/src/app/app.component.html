@@ -1,3 +1,7 @@
-<input type="text" [(ngModel)]="name">
+<input type="text"  required=""  [(ngModel)]="name"  #nameRef="ngModel">
 <br>
-{{name}}
+<p> {{name}}</p>
+<p>{{nameRef.valid}}</p>
+
+
+
