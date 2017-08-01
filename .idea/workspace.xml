@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6703e8f6-6260-44a3-b1c9-4c7a893a45ad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angulardirective/src/app/app.component.html" afterPath="$PROJECT_DIR$/angulardirective/src/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angulardirective/src/app/first-directive.directive.ts" afterPath="$PROJECT_DIR$/angulardirective/src/app/first-directive.directive.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angulardirective/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
@@ -37,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first-directive.directive.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="first-directive.directive.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angulardirective/src/app/first-directive.directive.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="368">
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,7 +58,7 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angulardirective/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="-88">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -130,8 +128,8 @@
         <option value="$PROJECT_DIR$/angulardirective/src/app/basic-component/basic-component.component.ts" />
         <option value="$PROJECT_DIR$/angulardirective/src/app/basic-component/basic-component.component.html" />
         <option value="$PROJECT_DIR$/angulardirective/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/angulardirective/src/app/first-directive.directive.ts" />
         <option value="$PROJECT_DIR$/angulardirective/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/angulardirective/src/app/first-directive.directive.ts" />
       </list>
     </option>
   </component>
@@ -301,12 +299,12 @@
       <workItem from="1501384521776" duration="10843000" />
       <workItem from="1501444897400" duration="13124000" />
       <workItem from="1501529302713" duration="18000" />
-      <workItem from="1501537122526" duration="3786000" />
+      <workItem from="1501537122526" duration="4284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45639000" />
+    <option name="totallyTimeSpent" value="46137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -721,11 +719,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angulardirective/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
+        <state relative-caret-position="-88">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angulardirective/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,16 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angulardirective/src/app/first-directive.directive.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angulardirective/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="368">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
