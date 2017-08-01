@@ -1,4 +1,4 @@
-import {Directive, HostBinding} from '@angular/core';
+import {Directive, HostBinding, Input} from '@angular/core';
 
 @Directive({
   selector: '[appFirstDirective]'
@@ -7,6 +7,10 @@ export class FirstDirectiveDirective {
 
   constructor() { }
 
-  @HostBinding() innerText = `I am a directvie!`
+  @Input() appFirstDirective;
+
+  @HostBinding() get innerText(){
+    return this.appFirstDirective
+  }
 
 }
