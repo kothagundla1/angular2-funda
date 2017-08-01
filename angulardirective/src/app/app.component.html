@@ -1,0 +1,19 @@
+<template #foo let-whatever="message">
+  <h1>{{whatever}}</h1>
+</template>
+
+<div
+  [ngTemplateOutlet]="foo"
+  [ngOutletContext]="one"
+>
+</div>
+<div
+  [ngTemplateOutlet]="foo"
+  [ngOutletContext]="two"
+>
+</div>
+<div
+  [ngTemplateOutlet]="foo"
+  [ngOutletContext]="three"
+>
+</div>
